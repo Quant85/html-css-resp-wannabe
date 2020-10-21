@@ -128,4 +128,9 @@ img {
     padding: 20px;
   }
 
+  .container.grey {
+    background-color: #ffffff;
+  }
+
+
 }
