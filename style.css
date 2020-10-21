@@ -79,15 +79,22 @@ img {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    float: none;
   }
 
   body{
     min-width: 420px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.3em;
   }
 
   img {
-    height: 85px;
+    height: 90px;
   }
   .row{
     width: 420px;
@@ -95,9 +102,8 @@ img {
   }
 
   #lezioni, #steps, #why{
-    padding: 10px;
+    padding-top: 10px;
   }
-
 
   #lezioni, #why{
     background-color: #f2f2cd;
@@ -111,7 +117,7 @@ img {
   #why .row>.second,
   #why .row>.third {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
     padding: 10px;
   }
   #why .row img{
