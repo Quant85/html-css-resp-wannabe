@@ -1,3 +1,4 @@
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -133,11 +134,16 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   *{
     box-sizing: border-box;
     padding: 0;
   }
+
+  body{
+    font-size: 22px;
+  }
+
 
   .row{
     width: 100%;
@@ -146,8 +152,10 @@ img {
   img {
     height: 100px;
   }
-  
+
   #why .row>.first,
+  #why .row>.second,
+  #why .row>.third,
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
